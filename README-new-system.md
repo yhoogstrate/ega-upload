@@ -201,7 +201,7 @@ sample	study	instrument_model	library_name	library_source	library_selection	libr
  - Open the file in Libre/OpenOffice or Excel and fill it in:
  - sample: `ERS6643979` - sample identifier
  - study: `EGAS00001001234` - study identifier
- - remove columns `` and `` - md5sums should be uploaded with data, and parsed automatically
+ - remove columns `forward_file_md5` and `reverse_file_md5` - md5sums should be uploaded with data, and parsed automatically
  - forward_file_name: `` (path @ EGA FTP)
  - reverse_file_name: `` (path @ EGA FTP)
 
