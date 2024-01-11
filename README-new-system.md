@@ -204,7 +204,7 @@ sample	study	instrument_model	library_name	library_source	library_selection	libr
  - study: `EGAS00001001234` - study identifier
  - remove columns `forward_file_md5` and `reverse_file_md5` - md5sums should be uploaded with data, and parsed automatically
  - forward_file_name: `gsam-recovered/KAD2-2698_NGS19-J560_BHM33WDSXX_S12_L002_R1_001.fastp-recovered.fastq.gz.gpg` (path of the `.gpg` file @ EGA FTP)
- - reverse_file_name: `gsam-recovered/KAD2-2698_NGS19-J560_BHM33WDSXX_S12_L002_R1_001.fastp-recovered.fastq.gz.gpg` (path of the `.gpg` file @ EGA FTP)
+ - reverse_file_name: `gsam-recovered/KAD2-2698_NGS19-J560_BHM33WDSXX_S12_L002_R2_001.fastp-recovered.fastq.gz.gpg` (path of the `.gpg` file @ EGA FTP)
 
 The final file for G-SAM recovery:
 ```{txt}
