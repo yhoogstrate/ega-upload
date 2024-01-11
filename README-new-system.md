@@ -184,7 +184,7 @@ source upload.sh
 # 5.5 Submit files into EGA portal
 
  - Go to [**Raw Reads (Experiments and Runs)**]
- - Press [** + Submit Reads**]
+ - Press [**Submit Reads**]
  - Press [**Download spreadsheet template for Read submission**]
  - For paired-end RNA-seq: [**Submit paired reads using two Fastq files**]
  - Pre-select values you know the much you can, avoids making typo's later
@@ -268,16 +268,16 @@ Go back to the main page to upload the tsv file:
  - Go to [**Raw Reads (Experiments and Runs)**]
  - Press [** + Submit Reads**]
  - Press [**Upload filled spreadsheet template for Read submission**] + Choose file
- - Fill in `Erasmus MC` in Center name
+ - Fill in Center name (e.g. `Erasmus MC`)
 
 When you receive errors as these:
 ```{txt}
 In run, alias: "ena-RUN-TAB-11-01-2024-12:33:44:658-242573". File "gsam-recovered/GAI1-2433_NGS19-J607_BHM33WDSXX_S59_L003_R1_001.fastp-recovered.fastq.gz" does not exist in the upload area.
 ``` 
 
-It does NOT automatically mean it is not uploaded, it may simply not yet be within their system.
-The best thing is to leave it a day or so and try it again ...
-If waiting does not resolve this, the files are somehow stuck - it happens quite often.
+It does NOT automatically mean the file is not uploaded, it means that Webin does not have it (?yet) in its cache/database.
+The best thing is to leave it a day or so and try it again ... because the cache does not get synchronised directly.
+If waiting does not resolve this, the files are somehow indeed stuck - this unfortunately also happens quite often.
 In that case, send an e-mail to the help-desk and wait for ~3 working days to have this resolved.
 
 
