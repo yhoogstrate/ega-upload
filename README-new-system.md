@@ -1,7 +1,9 @@
+Guidelines and practical tips to get your data into EGA, the European Genome-Phenome Archive.
+
+
 # 0. Find their Readme:
 
 https://www.ebi.ac.uk/ega/submission/tools/EGA_webin
-
 
 # 1. Make/obtain an upload account
 
