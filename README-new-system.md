@@ -182,7 +182,9 @@ sed -E "s/(.+)$/curl -T \\1 ftp:\/\/ftp.ega.ebi.ac.uk\/subfolder\/ --user 'ega-b
 source upload.sh
 ```
 
-# 5.5 Submit files into EGA portal
+# 5.5 Submit files (reads) into EGA portal
+
+https://www.ebi.ac.uk/ena/submit/webin/read-submission
 
  - Go to [**Raw Reads (Experiments and Runs)**]
  - Press [**Submit Reads**]
@@ -266,7 +268,7 @@ ERS6644299	EGAS00001005446	Illumina NovaSeq 6000	NGS19	TRANSCRIPTOMIC	cDNA	RNA-S
 
 Go back to the main page to upload the tsv file:
 
- - Go to [**Raw Reads (Experiments and Runs)**]
+ - Go to [**Raw Reads (Experiments and Runs)**] - https://www.ebi.ac.uk/ena/submit/webin/read-submission
  - Press [**Submit Reads**]
  - Press [**Upload filled spreadsheet template for Read submission**] + Choose file
  - Fill in Center name (e.g. `Erasmus MC`)
