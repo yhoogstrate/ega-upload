@@ -73,7 +73,8 @@ Then:
  - Samples -> [**Register Samples**]
  - Upload filled speadsheet to register samples
  - Choose file, Submit completed Speadsheat -- !! all samples/data should now be CORRECT !!
-
+ - After the `tsv` file has been accepted:
+ - [ ] Make a backup of this file within your project documentation (!!)
 
 # 5. Register actual data
 
@@ -280,6 +281,8 @@ The best thing is to leave it a day or so and try it again ... because the cache
 If waiting does not resolve this, the files are somehow indeed stuck - this unfortunately also happens quite often.
 In that case, send an e-mail to the help-desk and wait for ~3 working days to have this resolved.
 
+ - After the `tsv` file has been accepted:
+ - [ ] Make a backup of this file within your project documentation (!!)
 
 # 6. DAC etc
 Add data access policy - either text field or title does not support the '&'-character
